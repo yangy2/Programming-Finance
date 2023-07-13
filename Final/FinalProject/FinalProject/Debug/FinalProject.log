@@ -1,0 +1,11 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (FinalProject.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+stock_account_yilin_yang.obj : error LNK2019: unresolved external symbol _mxGetPr_800 referenced in function "public: void __thiscall Stock_Account::plot(void)" (?plot@Stock_Account@@QAEXXZ)
+stock_account_yilin_yang.obj : error LNK2019: unresolved external symbol _mxDestroyArray_800 referenced in function "public: void __thiscall Stock_Account::plot(void)" (?plot@Stock_Account@@QAEXXZ)
+stock_account_yilin_yang.obj : error LNK2019: unresolved external symbol _mxCreateDoubleMatrix_800 referenced in function "public: void __thiscall Stock_Account::plot(void)" (?plot@Stock_Account@@QAEXXZ)
+stock_account_yilin_yang.obj : error LNK2019: unresolved external symbol _engEvalString referenced in function "public: void __thiscall Stock_Account::plot(void)" (?plot@Stock_Account@@QAEXXZ)
+stock_account_yilin_yang.obj : error LNK2019: unresolved external symbol _engOpen referenced in function "public: void __thiscall Stock_Account::plot(void)" (?plot@Stock_Account@@QAEXXZ)
+stock_account_yilin_yang.obj : error LNK2019: unresolved external symbol _engPutVariable referenced in function "public: void __thiscall Stock_Account::plot(void)" (?plot@Stock_Account@@QAEXXZ)
+C:\Program Files\MATLAB\R2018a\extern\lib\win64\microsoft\libmx.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files\MATLAB\R2018a\extern\lib\win64\microsoft\libmex.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Program Files\MATLAB\R2018a\extern\lib\win64\microsoft\libeng.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Yilin\Documents\Grad Classes\2018 A-Spring\Programming Finance\Final\FinalProject\Debug\FinalProject_Yilin_Yang.exe : fatal error LNK1120: 6 unresolved externals
