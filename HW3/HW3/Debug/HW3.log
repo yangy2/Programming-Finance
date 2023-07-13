@@ -1,0 +1,13 @@
+﻿hw3_vector.obj : error LNK2005: "void __cdecl add(int (* const)[10],int (* const)[10],int (* const)[10],int,int)" (?add@@YAXQAY09H00HH@Z) already defined in hw3_matrix.obj
+hw3_vector.obj : error LNK2005: "int __cdecl det(int (* const)[10])" (?det@@YAHQAY09H@Z) already defined in hw3_matrix.obj
+hw3_vector.obj : error LNK2005: "void __cdecl fill_matrix(int (* const)[10],int,int)" (?fill_matrix@@YAXQAY09HHH@Z) already defined in hw3_matrix.obj
+hw3_vector.obj : error LNK2005: "void __cdecl get_dimensions(int &,int &)" (?get_dimensions@@YAXAAH0@Z) already defined in hw3_matrix.obj
+hw3_vector.obj : error LNK2005: "void __cdecl inv(int (* const)[10],int,int)" (?inv@@YAXQAY09HHH@Z) already defined in hw3_matrix.obj
+hw3_vector.obj : error LNK2005: "void __cdecl mult(int (* const)[10],int (* const)[10],int (* const)[10],int,int,int,int)" (?mult@@YAXQAY09H00HHHH@Z) already defined in hw3_matrix.obj
+hw3_vector.obj : error LNK2005: "void __cdecl print_matrix(int (* const)[10],int,int)" (?print_matrix@@YAXQAY09HHH@Z) already defined in hw3_matrix.obj
+hw3_vector.obj : error LNK2005: "int __cdecl print_menu(void)" (?print_menu@@YAHXZ) already defined in hw3_matrix.obj
+hw3_vector.obj : error LNK2005: "void __cdecl refresh_cin(void)" (?refresh_cin@@YAXXZ) already defined in hw3_matrix.obj
+hw3_vector.obj : error LNK2005: "void __cdecl sub(int (* const)[10],int (* const)[10],int (* const)[10],int,int)" (?sub@@YAXQAY09H00HH@Z) already defined in hw3_matrix.obj
+hw3_vector.obj : error LNK2005: "void __cdecl trans(int (* const)[10],int (* const)[10],int,int)" (?trans@@YAXQAY09H0HH@Z) already defined in hw3_matrix.obj
+hw3_vector.obj : error LNK2005: _main already defined in hw3_matrix.obj
+C:\Users\Yilin\Documents\Grad Classes\2018 A-Spring\Programming Finance\HW3\Debug\HW3.exe : fatal error LNK1169: one or more multiply defined symbols found
